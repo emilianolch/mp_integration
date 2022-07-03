@@ -1,0 +1,6 @@
+<h1>Mercado Pago payment</h1>
+<h2>Preference:</h2>
+<p>
+  <%= ap(@preference).html_safe %>
+</p>
+<h2><%= link_to 'Pay!', @preference['init_point'] %></h2>
